@@ -1,0 +1,56 @@
+
+/******** HEADER ***********/
+header {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    padding: 0 20px;
+    color: beige;
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: beige;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+/* Hero Style */
+.hero {
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

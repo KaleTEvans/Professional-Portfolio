@@ -1,4 +1,5 @@
 
+
 /******** HEADER ***********/
 header {
     padding: 0 50px;
@@ -17,7 +18,7 @@ header {
 
 header h1 {
     padding: 0 20px;
-    color: beige;
+    color: white;
     font-weight: bold;
     font-size: 72px;
     margin: 0;
@@ -25,7 +26,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: beige;
+    color: white;
 }
 
 header nav ul {
@@ -37,11 +38,11 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li {
+header nav ul li a {
     padding: 10px;
 }
 
-/* Hero Style */
+/************* Hero Style ******************/
 .hero {
     height: 700px;
     width: 100%;
@@ -54,3 +55,37 @@ header nav ul li {
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
+/*************** About Me Styles **************/
+.about {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+img{
+    border: 10px solid white;
+    width: 40%;
+    margin: 3.5%;
+}
+
+.bio {
+    background-color: white;
+    border: 10px solid white;
+    width: 40%;
+    margin: 3.5%;
+    text-align: center;
+}
+
+.bio-text {
+
+}
+
+
+
+body {
+    background-color: black;
+}
+

@@ -1,6 +1,7 @@
 :root {
-    --secondary-color: rgb(39, 39, 139);
     --primary-color: rgb(218, 212, 212);
+    --secondary-color: rgb(39, 39, 139);
+    --tertiary-color: rgb(73, 70, 70);
 }
 
 /******** HEADER ***********/
@@ -13,7 +14,7 @@ header {
     top: 0;
     align-items: center;
     z-index: 9999;
-    background-color: rgb(73, 70, 70);
+    background-color: var(--tertiary-color);
 }
 
 header h1 {
@@ -71,9 +72,22 @@ header nav ul li a:hover {
     background-attachment: fixed;
     background-position: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: flex-end;
+}
+
+.hero-cta {
+    margin: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.hero-cta p {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 /*************** About Me Styles **************/

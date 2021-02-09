@@ -58,29 +58,37 @@ header nav ul li a {
 
 /*************** About Me Styles **************/
 .about {
-    display: flex;
     padding: 25px;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 
-img{
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
     border: 10px solid white;
     width: 40%;
     margin: 3.5%;
 }
 
-.bio {
+.profile-pic img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bio-text {
     background-color: white;
     border: 10px solid white;
     width: 40%;
     margin: 3.5%;
-    text-align: center;
-}
-
-.bio-text {
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .college-logo {
@@ -90,16 +98,27 @@ img{
 
 /*************** Portfolio Styles ******************/
 .my-portfolio {
+    padding: 25px;
+}
+
+.projects {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 
 .project {
-    display: flex;
-    justify-content: space-between;
+    flex: 1;
+    margin: 20px;
     width: 30%;
+}
+
+.project-img  img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /**************** General Page Styles **************/
@@ -113,7 +132,7 @@ img{
     font-size: 36px;
     text-align: center;
     width: 50%;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 10px auto;
     padding-bottom: 20px;
 }
 

@@ -83,9 +83,44 @@ img{
 
 }
 
-
-
-body {
-    background-color: black;
+.college-logo {
+    width: 25%;
+    text-align: center;
 }
 
+/*************** Portfolio Styles ******************/
+.my-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+/**************** General Page Styles **************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 36px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+body {
+    /* background-color: black; */
+}

@@ -1,45 +1,65 @@
-
+:root {
+    --secondary-color: rgb(39, 39, 139);
+    --primary-color: rgb(218, 212, 212);
+}
 
 /******** HEADER ***********/
 header {
-    padding: 0 50px;
+    padding: 15px 50px 15px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     top: 0;
     align-items: center;
-    background-image: url("../images/space.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
     z-index: 9999;
+    background-color: rgb(73, 70, 70);
 }
 
 header h1 {
-    padding: 0 20px;
+    padding: 0 10px 0 30px;
     color: white;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 64px;
     margin: 0;
+    background-color: var(--primary-color);
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
+}
+
+header h1 a {
+    color: var(--secondary-color);
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
     list-style: none;
+}
+
+header nav ul li {
+    border-bottom: solid var(--primary-color);
+    margin: 5px;
 }
 
 header nav ul li a {
     padding: 10px;
     font-size: 24px;
+}
+
+header nav ul li:hover {
+    border: none;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    text-shadow: none;
 }
 
 /************* Hero Style ******************/

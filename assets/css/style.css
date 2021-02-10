@@ -192,6 +192,49 @@ header nav ul li a:hover {
     color: var(--primary-color);
 }
 
+/*************** Contact Section Styles *********/
+
+.contact {
+    padding: 25px;
+    background-color: var(--tertiary-color);
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.personal-info, .other-platforms {
+    width: 35%;
+    padding: 100px 25px;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.personal-info h3, .other-platforms h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.personal-info address {
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
 /**************** General Page Styles **************/
 
 .section-title {

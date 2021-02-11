@@ -110,7 +110,7 @@ header nav ul li a:hover {
 }
 
 .profile-pic {
-    width 35%;
+    width: 35%;
     padding: 25px;
     background-color: var(--primary-color);
     border-radius: 25px;
@@ -124,7 +124,7 @@ header nav ul li a:hover {
 .bio-text {
     width: 35%;
     padding: 25px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -274,7 +274,7 @@ footer h2 {
     font-size: 36px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 25%;
+    width: 50%;
     padding: 15px;
     font-weight: bold;
     background-color: var(--primary-color);
@@ -312,6 +312,10 @@ footer h2 {
         margin-bottom: 0;
     }
 
+    .profile-pic {
+        width: 100%;
+    }
+
     .bio-text {
         width: 100%;
     }
@@ -329,6 +333,8 @@ footer h2 {
         text-align: center;
         width: 100%;
     }
+
+}    
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -353,6 +359,10 @@ footer h2 {
 
     header nav ul li a {
         font-size: 16px;
+    }
+
+    .bio-text p {
+        font-size: 24px;
     }
 
     .main-project, .project {
@@ -387,7 +397,8 @@ footer h2 {
     .personal-info h3, .other-platforms h3 {
         width: 100%;
     }
-
+    
+}
 
 /* MEDIA QUESRY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {

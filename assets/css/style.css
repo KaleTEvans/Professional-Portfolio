@@ -225,6 +225,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 
 .personal-info h3, .other-platforms h3 {
@@ -238,15 +239,18 @@ header nav ul li a:hover {
 .personal-info address {
     font-style: normal;
     line-height: 1.5;
+    text-align: center;
 }
 
 .links ul li {
     list-style: none;
+    font-weight: bold;
+    text-align: center;
 }
 
 .links ul li a {
     line-height: 1.5;
-    font-weight: bold;
+
 }
 
 /************* Footer Styles *****************/

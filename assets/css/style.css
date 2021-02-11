@@ -160,6 +160,11 @@ header nav ul li a:hover {
     justify-content: flex-start;
     align-items: flex-end;
     text-decoration: none;
+    opacity: 0.75;
+}
+
+.main-project:hover {
+    opacity: 1;
 }
 
 .project {
@@ -173,6 +178,11 @@ header nav ul li a:hover {
     justify-content: flex-start;
     align-items: flex-end;
     text-decoration: none;
+    opacity: 0.75;
+}
+
+.project:hover {
+    opacity: 1;
 }
 
 .project-info {

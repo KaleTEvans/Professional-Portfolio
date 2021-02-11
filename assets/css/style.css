@@ -93,6 +93,7 @@ header nav ul li a:hover {
     font-size: 36px;
     font-weight: bold;
     color: var(--secondary-color);
+    text-align: center;
 }
 
 /*************** About Me Styles **************/
@@ -141,7 +142,7 @@ header nav ul li a:hover {
 }
 
 .projects {
-    margin: 10px 300px;
+    margin: 10px 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -219,9 +220,11 @@ header nav ul li a:hover {
 .personal-info, .other-platforms {
     width: 35%;
     padding: 100px 25px;
-    text-align: center;
     background-color: var(--primary-color);
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .personal-info h3, .other-platforms h3 {
@@ -229,6 +232,7 @@ header nav ul li a:hover {
     margin-bottom: 20px;
     color: var(--secondary-color);
     font-weight: bold;
+    text-align: center;
 }
 
 .personal-info address {
@@ -295,6 +299,10 @@ footer h2 {
         width: 100%;
     }
 
+    .hero {
+        justify-content: center;
+    }
+
     .section-title{
         width: 50%;
         margin-bottom: 0;
@@ -304,10 +312,114 @@ footer h2 {
         width: 100%;
     }
 
+    .projects {
+        margin: 10px 25px;
+    }
+
+    .personal-info, .other-platforms {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    header {
+        padding-bottom: 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        border-bottom: 0;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .main-project, .project {
+        opacity: 1;
+    }
+
+    .main-project {
+        height: 500px;
+    }
+
+    .project {
+        height: 300px;
+    }
+
+    .project-info {
+        margin: auto auto 0 0;
+        padding: 5px 5px 0 0;
+    }
+
+    .project-info h4 {
+        font-size: 16px;
+    }
+
+    .project-info p {
+        font-size: 12px;
+    }
+    
+    .personal-info, .other-platforms {
+        width: 100%;
+    }
+
+    .personal-info h3, .other-platforms h3 {
+        width: 100%;
+    }
+
+
 /* MEDIA QUESRY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
+    header nav ul li a {
+        font-size: 10px;
+    }
+
+    .hero {
+        height: 700px;
+    }
+
+    .hero-cta p {
+        font-size: 24px;
+    }
+
+    .profile-pic, .bio-text {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .bio-text p {
+        font-size: 20px;
+    }
+
     .section-title{
         width: 95%;
+        font-size: 28px;
     }
+
+    .main-project {
+        height: 300px;
+    }
+
+    .project {
+        height: 150px;
+    }
+
 }

@@ -3,7 +3,7 @@
 ## Purpose
 A professional developer portfolio website for Kale Evans 
 
-## Built Wih
+## Built With
 * HTML
 * CSS
 

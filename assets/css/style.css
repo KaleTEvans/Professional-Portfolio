@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     align-items: center;
@@ -131,6 +132,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     font-weight: bold;
     margin: 25px;
+    flex: 2 50%;
 }
 
 /*************** Portfolio Styles ******************/
@@ -250,7 +252,9 @@ header nav ul li a:hover {
 
 .links ul li a {
     line-height: 1.5;
-
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 /************* Footer Styles *****************/
@@ -285,6 +289,10 @@ footer h2 {
 .flex-row {
     display: flex;
     justify-content: center;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -375,6 +383,8 @@ footer h2 {
 
     .project {
         height: 300px;
+        width: 100%;
+        margin: 20px 0 20px 0;
     }
 
     .project-info {
@@ -431,6 +441,7 @@ footer h2 {
 
     .main-project {
         height: 300px;
+        width: 100%;
     }
 
     .project {

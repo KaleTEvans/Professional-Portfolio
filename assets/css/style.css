@@ -170,7 +170,21 @@ header nav ul li a:hover {
     opacity: 1;
 }
 
-.project {
+.project-1 {
+    background-image: url("../images/national-park.jpg");
+    background-size: cover;
+    width: 49%;
+    height: 400px;
+    border: solid var(--tertiary-color) 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.project-2 {
     background-image: url("../images/coming-soon.jpg");
     background-size: cover;
     width: 49%;
@@ -183,6 +197,7 @@ header nav ul li a:hover {
     text-decoration: none;
     opacity: 0.75;
 }
+
 
 .project:hover {
     opacity: 1;
